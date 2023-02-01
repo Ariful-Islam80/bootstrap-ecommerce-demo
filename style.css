@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+/* navbar design start */
+.navbar-brand h1{
+    font-size: 2rem;
+    color:black;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    
+}
+.navbar-brand h1:hover{
+    color:black;
+    
+}
+.nav-item a{
+    font-size: 20px;
+}
+.nav-link{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: 'Rubik',sans-serif;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color:black;
+    transform:scale(1.1);
+    text-decoration: underline;
+    font-weight: 600;
+}
+.search{
+    height:40px;
+    width:80%;
+    border-radius:60px;
+    outline:none;
+    margin-right: -35px;
+    border:2px solid rgb(248,26,92);
+    font-family: 'Rubik',sans-serif;
+    letter-spacing: 1px;
+}
+.btn0{
+    height:40px;
+    width:40%;
+    border-radius:60px;
+    outline:none;
+    border:none;
+    background:  rgb(248,26,92);
+    color:white;
+    font-weight:500;
+    letter-spacing: 1px;
+
+}
+/* navbar design ends */
+
+/* main section design start */
+.main{
+    background-image: url("image/one.jpg");
+    background-size:cover;
+    object-fit: cover;
+    height:100vh;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    
+    
+}
+
+.main-btn{
+ 
+ height:45px;
+ border-radius: 60px !important;
+ font-size: 25px;
+
+}
+.main-btn:hover{
+    background:#00425A !important;
+}
+/* main section ends */
+/* section trendign start */
+.shadows{
+    transition: 0.4s;
+}
+.shadows:hover{
+    transform: scale(1.1);
+}
+.doller{
+    margin-top: -10px;
+}
+.trending-btn{
+    border-radius: 60px !important;
+}
+/* section trending ends */
+/* section about start  */
+.about-btn{
+    
+    border-radius: 60px !important;
+}
+/* section about ends */
